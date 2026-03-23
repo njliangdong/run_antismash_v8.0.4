@@ -176,9 +176,15 @@ antismash --databases ./manually_antismash8.0.4_database --check-prereqs
 #SBATCH -n 1
 #SBATCH -c 32
 
-export PATH=/public3/home/your_path/mambaforge3/bin:$PATH
+## 集群服务器激活环境
+module load miniforge/24.11
+source activate /public3/home/scg4618/mambaforge3/envs/antismash8
+
+
+## 普通电脑激活环境
 mamba activate antismash8
 export PYTHONUNBUFFERED=1
+
 # 真菌
 antismash \
   --taxon fungi \
