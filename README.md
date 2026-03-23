@@ -205,7 +205,6 @@ antismash \
   --tfbs \
   --tigrfam \
   genome.fa
-```
 # 细菌
 antismash \
   --taxon bacteria \
@@ -227,6 +226,7 @@ antismash \
   --tigrfam \
   Burkholderia_gladioli_ASM1669870v1_genomic.fa
 
+```
 ---
 
 ## 🚀 提交任务
