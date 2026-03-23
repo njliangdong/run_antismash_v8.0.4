@@ -139,6 +139,9 @@ hmmpress transATor.hmm
 mkdir -p comparippson/asdb/4.0 comparippson/mibig/4.0
 ```
 
+### antismash自动下载数据库受到网络连接限制，此处可从本人google drive上下载配置好的antismash数据库
+https://drive.google.com/drive/folders/1OZgL36A4YlesJXoIi-2Z7pfyoRxCREI3?usp=drive_link
+```
 ---
 
 # 📂 数据库结构示意
