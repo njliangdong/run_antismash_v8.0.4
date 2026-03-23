@@ -179,7 +179,7 @@ antismash --databases ./manually_antismash8.0.4_database --check-prereqs
 export PATH=/public3/home/your_path/mambaforge3/bin:$PATH
 mamba activate antismash8
 export PYTHONUNBUFFERED=1
-
+# 真菌
 antismash \
   --taxon fungi \
   --databases ./manually_antismash8.0.4_database \
@@ -200,6 +200,26 @@ antismash \
   --tigrfam \
   genome.fa
 ```
+# 细菌
+antismash \
+  --taxon bacteria \
+  --databases ./manually_antismash8.0.4_database \
+  --output-dir Burkholderia_gladioli.antismash8.output \
+  --genefinding-gff3 genomic.gff \
+  --cpus 32 \
+  --fullhmmer \
+  --clusterhmmer \
+  --asf \
+  --cc-mibig \
+  --cb-general \
+  --cb-subclusters \
+  --cb-knownclusters \
+  --pfam2go \
+  --rre \
+  --smcog-trees \
+  --tfbs \
+  --tigrfam \
+  Burkholderia_gladioli_ASM1669870v1_genomic.fa
 
 ---
 
