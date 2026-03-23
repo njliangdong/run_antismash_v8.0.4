@@ -273,7 +273,7 @@ python summarize_bgc_stats.py \
 ## 3️⃣ 可视化
 
 ```bash
-python plo_bgc_summary_dot.py \
+python plot_bgc_summary_dot.py \
     -i BGC_Type_Averages.xlsx \
     -o plot.png
 ```
